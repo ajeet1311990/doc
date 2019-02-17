@@ -973,6 +973,8 @@ function w3_getStyleValue(elmnt,style) {
 
 <a href="#shell6">total.sh</a>
 <a href="#shell7">How do I start applications automatically on login?</a>
+<a href="#shell8">URL-listing.sh?</a>
+
 
 <h2 class="left"><span class="left_h2">###</span> ####</h2>
 
@@ -2639,6 +2641,33 @@ Comment=
 
 wq!
 ******************************************</pre>        
+ <h2><a name= "shell8"></a>URL-listing.sh?</h2>
+<pre>
+#!/bin/bash
+
+echo -n  "Provide complete URL[e.g  http://www.example.com & hit Enter]: "
+read name
+echo "Plz enter the username"
+read user;
+echo "you entered $user"
+
+>/usr/local/scripts/testdir/htmlist.txt
+cd /home/${user}/www/;
+find .  -iname "*.html" > /usr/local/scripts/testdir/htmlist.txt
+find .  -iname "*.htm" >> /usr/local/scripts/testdir/htmlist.txt
+find .  -iname "*.php" >> /usr/local/scripts/testdir/htmlist.txt
+>/usr/local/scripts/testdir/url_list.txt
+sed 's/^.//g'  /usr/local/scripts/testdir/htmlist.txt > /usr/local/scripts/testdir/urlnew_list.txt
+>/usr/local/scripts/testdir/url.txt
+awk -v i="$name" '{print i$1}' /usr/local/scripts/testdir/url_list.txt   > /usr/local/scripts/testdir/url.txt
+echo -n "Enter the mail Id to whom URL list is to be sent:"
+read mailid
+mutt -s "urllist" $mailid -a /usr/local/scripts/testdir/url.txt </dev/null
+echo "URL list  sent successfully to $mailid"
+
+******************************************</pre>
+
+</div>
 
 </div>    
             
@@ -2646,6 +2675,7 @@ wq!
 </div>    
 
 </div>
+<a href="#shell8">URL-listing.sh?</a>
 
 </body>
 
