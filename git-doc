@@ -1,0 +1,58 @@
+ git config --global user.email 'abc@gmail.com'
+git config --global user.name 'abc'
+git init
+
+echo "# doc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ajeet1311990/doc.git
+git push -u origin master
+user name ajeet1311990
+--------------------------------------------------------
+git server
+git client
+git repository
+git staging 
+git branching
+git commit
+----------------------------
+git init
+git status
+writer code 
+git status -s
+git add .
+git status
+git log
+git show commit id
+add somthing in your file
+git status -s
+git add .
+git commit -m "add some line"
+git log
+git show  id
+add something in place last commit
+git add .
+git commit --amend -m "this is prefect"   
+git add origin   https://*****************************
+git branch
+git branch dev
+git branch
+git checkout dev
+git branch
+git checkout master
+
+git branch -D dev
+git branch
+git push origin master
+enter username
+enter password
+other
+git pull origia master
+
+merge conflict ?????????(when 2 user add same file with same content)
+---------------------------------------------------------------------
+git branch release-1.2
+git branch
+git checkout release-1.2
+ 
