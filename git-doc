@@ -55,4 +55,13 @@ merge conflict ?????????(when 2 user add same file with same content)
 git branch release-1.2
 git branch
 git checkout release-1.2
- 
+ befour start working on repo allways
+git pull origin master
+git fetch
+git checkout remotes/origin/release-1.2
+git branch -d branch-name
+on local mearg branch 
+git merge master release-1.2
+------GIT STASH^C-----------------------
+store process in tempary storage and start working with some other branch
+
