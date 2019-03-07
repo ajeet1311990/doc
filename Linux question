@@ -1,0 +1,69 @@
+what is DNS ? How it related with subnet mask?
+what is the reletion bitween IP address and subnet mask ?
+How to see CPU usage ? what are the different parameters of that command?
+how to transefer securely file over network ?
+what is subnet mask ?
+what are the tools to use to show another/remote screen on your system and at saame time through voice also?
+how to upload file on remote server ?
+Maximam numbers of subnet mask number?
+top,last,who i am,which
+https configuration related question.
+what are the packages for apache server configuration?
+About DNS server configuration files,packages etc.
+how many zone in DNS?
+about mail server configuration files,packages.
+How to call script through cron job?
+how to use DELETE command in DB? Example with one example.
+About DHCP.
+what is the output of TOP command ?
+How to check CPU information?
+how to check memory information?
+how to check kernal version ?
+what is Kernal ?
+use of SCP command?
+what is swap memory ?
+have you ever create LVM ?
+how to remove abc.txt file ?
+how to check http version ?
+how to stop firewall service ?
+what is  .bashrc and .bash_profile ?
+what is different bitween application server and webserver ?
+how to increase heap memory size ? what is the exact parameter name to do this and where to change ?
+what is load blancer ? how to configure it ? how to works ?
+how do you install packages?
+what if there is no RPM and YUM is Available ?
+what is grep command ?
+how to find pradeep in a texe file ?
+how to check disk space .
+what is name of Samba configuration file ?
+what is the port number of SFTP ?
+how to change root password ?
+what is AWK ?
+how to find all last 30 day file ?
+how can you see all mounted drives ?
+how to check all open ports on linux machine.
+in which file is static IP address given so that it becomes Permanent ?
+/etc/sysconfig/network-scripts/ifcfg-eth)
+to chech which service is running at present in system what is the command ?
+service -status-all
+ps -ef
+what is different bitween Telnet and SSH ?
+ssh is secured shell, where telnet is not secured. when you trasnfer data with ssh datawill be send incryped from .
+but sending data with telnet data transfer in alfabatical formate.
+what is mean by raid and what are all raids available even in software and harward ?
+why the kernam panic erroe was appering ?
+kernel panic acured when linux kernal can not communicat with any hardware or any OS related file.
+how can you find out how long the system has been running ?
+what is shall ?
+how to kill process ?
+how to executed a a linux command in the background ?
+what is NFS ?  what it 's job ?
+how do you find out what's your shell .
+what are PIDs ?
+how willyou find packages is installed or not ?
+how to see which linux flaver version is install 
+list all the files of /var file system which are not accessed more then 30 days ?
+how do you find out all process that are currently running ?
+what is file system ?
+what linux command controls the default file permision when file are creted ?
+how do you count words ,line and characters in a file .
