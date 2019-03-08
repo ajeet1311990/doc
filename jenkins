@@ -1,0 +1,12 @@
+https://pkg.jenkins.io/redhat-stable/
+yum update
+yum install java* -y
+yum install wget -y
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install jenkins -y
+systemctl start jenkins
+systemctl enable jenkins
+netstat -tnlp | grep -w 8080
+systemctl status -i jenkins
+http://18.209.214.8:8080    [ on URL ]
