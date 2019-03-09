@@ -10,3 +10,4 @@ systemctl enable jenkins
 netstat -tnlp | grep -w 8080
 systemctl status -i jenkins
 http://18.209.214.8:8080    [ on URL ]
+http://18.209.214.8:8080/restart  
