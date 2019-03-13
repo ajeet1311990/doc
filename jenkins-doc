@@ -28,7 +28,7 @@ Step 6 : verify if tomcat started : browser - http://localhost:8080
 Step 7 : verify if jenkins is running on tomcat : http://localhost:8080/jenkins
 *** To start jenkins (standalone) on a diff port***
 java -jar jenkins.war - - httpPort=9090
-====================== Tutorial 3 - How to change Home Directory=================================
+==================== Tutorial 3 - How to change Home Directory=================================
 Jenkins Home Directory contains:
 1. All configurations
 2. Plugins
