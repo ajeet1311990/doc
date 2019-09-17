@@ -1,33 +1,33 @@
 ### 1. what is DNS ? How it related with subnet mask?
-### 1. what is the reletion bitween IP address and subnet mask ?
-### 1. How to see CPU usage ? what are the different parameters of that command?
-### 1. how to transefer securely file over network ?
-### 1. what is subnet mask ?
-### 1. what are the tools to use to show another/remote screen on your system and at saame time through voice also?
-### 1. how to upload file on remote server ?
-### 1. Maximam numbers of subnet mask number?
-### 1. top,last,who i am,which
-### 1. https configuration related question.
-### 1. what are the packages for apache server configuration?
-### 1. About DNS server configuration files,packages etc.
-### 1. how many zone in DNS?
-about mail server configuration files,packages.
-How to call script through cron job?
-how to use DELETE command in DB? Example with one example.
-About DHCP.
-what is the output of TOP command ?
-How to check CPU information?
-how to check memory information?
-how to check kernal version ?
-what is Kernal ?
-use of SCP command?
-what is swap memory ?
-have you ever create LVM ?
-how to remove abc.txt file ?
-how to check http version ?
-how to stop firewall service ?
-what is  .bashrc and .bash_profile ?
-what is different bitween application server and webserver ?
+### 2. what is the reletion bitween IP address and subnet mask ?
+### 3. How to see CPU usage ? what are the different parameters of that command?
+### 4. how to transefer securely file over network ?
+### 5. what is subnet mask ?
+### 6. what are the tools to use to show another/remote screen on your system and at saame time through voice also?
+### 7. how to upload file on remote server ?
+### 8. Maximam numbers of subnet mask number?
+### 9. top,last,who i am,which
+### 10. https configuration related question.
+### 11. what are the packages for apache server configuration?
+### 12. About DNS server configuration files,packages etc.
+### 13. how many zone in DNS?
+### 14.about mail server configuration files,packages.
+### 15.How to call script through cron job?
+### 16.how to use DELETE command in DB? Example with one example.
+### 17. About DHCP.
+### 18. what is the output of TOP command ?
+### 19. How to check CPU information?
+### 20. how to check memory information?
+### 21. how to check kernal version ?
+### 22. what is Kernal ?
+### 23. use of SCP command?
+### 24. what is swap memory ?
+### 25. have you ever create LVM ?
+### 26. how to remove abc.txt file ?
+### 27. how to check http version ?
+### 28. how to stop firewall service ?
+### 29. what is  .bashrc and .bash_profile ?
+### 30. what is different bitween application server and webserver ?
 how to increase heap memory size ? what is the exact parameter name to do this and where to change ?
 what is load blancer ? how to configure it ? how to works ?
 how do you install packages?
