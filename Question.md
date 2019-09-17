@@ -57,6 +57,16 @@
 ### 36. What is PORt Number of SFTP?
 ### 37. What is AWK?
 ### 38. How to find all last 30 day file?
+### 39. What is inode?
+### 40. how many run lable in linux ? How to change run level?
+### 41. How can you find out how long the system has been running?
+### 42. How do you check siz of all user home Directory?
+### 43. What is NFS ?
+### 44. How do you count words,lines and charecters in a file?
+### 45. what are PID?
+### 46. How will you find package is install or not?
+### 47. what linux command control Default file permassing when file are created?
+### 48. How do you find out what is your shell?
 
 
 
