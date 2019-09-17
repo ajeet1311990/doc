@@ -40,5 +40,11 @@
 ### 22. How to check memory information?
 ### 23. How to check Kernal version?
 ### 24. how to show top and below line of any file?
+     ### Sapient###
+### 25. How to check http version?
+### 26. How to stop firewall service?
+### 27. what is .bashrc and .bash_profile?
+### 28. what is difference bitween web and application server?
+### 29. How to find pradeep in a text file?
 
 
