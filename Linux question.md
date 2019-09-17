@@ -1,16 +1,16 @@
-what is DNS ? How it related with subnet mask?
-what is the reletion bitween IP address and subnet mask ?
-How to see CPU usage ? what are the different parameters of that command?
-how to transefer securely file over network ?
-what is subnet mask ?
-what are the tools to use to show another/remote screen on your system and at saame time through voice also?
-how to upload file on remote server ?
-Maximam numbers of subnet mask number?
-top,last,who i am,which
-https configuration related question.
-what are the packages for apache server configuration?
-About DNS server configuration files,packages etc.
-how many zone in DNS?
+### 1. what is DNS ? How it related with subnet mask?
+### 1. what is the reletion bitween IP address and subnet mask ?
+### 1. How to see CPU usage ? what are the different parameters of that command?
+### 1. how to transefer securely file over network ?
+### 1. what is subnet mask ?
+### 1. what are the tools to use to show another/remote screen on your system and at saame time through voice also?
+### 1. how to upload file on remote server ?
+### 1. Maximam numbers of subnet mask number?
+### 1. top,last,who i am,which
+### 1. https configuration related question.
+### 1. what are the packages for apache server configuration?
+### 1. About DNS server configuration files,packages etc.
+### 1. how many zone in DNS?
 about mail server configuration files,packages.
 How to call script through cron job?
 how to use DELETE command in DB? Example with one example.
