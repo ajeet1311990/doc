@@ -46,5 +46,17 @@
 ### 27. what is .bashrc and .bash_profile?
 ### 28. what is difference bitween web and application server?
 ### 29. How to find pradeep in a text file?
+         ### AGILIS INTERNATIONAL LTD.###########
+### 30. How to check CPU users?
+### 31. How to check Disk space?
+### 32. how to check how many process are running?
+### 33. what is name of SAMBA configuration file?
+### 34. what is GREP command ? what is the use of option a,l,v,r,e?
+### 35. how to check which run lable you are working right Now?
+     ### KRITICAL SOFTWARE###
+### 36. What is PORt Number of SFTP?
+### 37. What is AWK?
+### 38. How to find all last 30 day file?
+
 
 
