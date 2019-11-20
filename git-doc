@@ -10,12 +10,12 @@ git remote add origin https://github.com/ajeet1311990/doc.git
 git push -u origin master
 user name ajeet1311990
 --------------------------------------------------------
-git server
-git client
-git repository
-git staging 
-git branching
-git commit
+git server :-  it is two type 1.  On primation , 2. cloud base (SAAS){github,gitlab,BigBuket,code commit sale software as service }
+git client 
+git repository :- is is directory where git proform after run git init command.
+git staging :- add  data in git repository with git add . command else data is in non staging.
+git branching :- it use for doing partisio in repository .we cann create multiple branch in a single repository like UI,Frontend ,Backend or relage based.
+git commit :- it is basicaly restore point of your changes. like snapshort.
 ----------------------------
 git init
 git status
@@ -69,4 +69,34 @@ git remote -v
  git remote rm origin
 git remote add origin git@52.202.31.177:abc.git
 git remote add origin git@52.202.31.177:gitolite-admin
+_______________________________________________________________________________________
+Amend :-  use only for privice commit .only chang last line with same commit ID.
+Example :-  $ echo it is right > test (file name) 
+            $ git add .
+            $ git comment --amend -m "now it is perfact"
 
+GIT use C language & SHA    ( SECURE HASE AlGORITHAM ) file system
+ssh protocal in GIT  :- for use ssh protocal we need to jenret ssh key on local user then id_Rsa.pub copy and set on github account.
+Error occrad  :-
+1) - when two user work on share project like 
+1 uuser ram push all chang o master repo
+2 uuser anu  next day come and start working on same repo without pull last chang and then try to hir code on server she get error so first she pull last chang.  
+
+marg confilect :- if two user work on same file but  write different contant on same number of line and first user push there code in master repo now secand 
+user try to push his code now gatting marg conflict errar.
+for trubleshoot this 
+$ vim filename 
+<<<<<<<<< HEAD
+  this is by harry    -------- first file content
+ = = = = = = =
+this is by natasha    ----------second file content
+>>>>>>>>>>>>>>> b860f27b44f7869acf -------------> commit ID
+
+open file and change conflict problam and save file
+vim test
+git add .
+git commit -m "xyz"
+ now user can pull and push 
+For find how many file gatting merg conflit run
+git status
+all file which have AA gatting conflict errar . 
