@@ -99,4 +99,59 @@ git commit -m "xyz"
  now user can pull and push 
 For find how many file gatting merg conflit run
 git status
-all file which have AA gatting conflict errar . 
+all file which have UU_________________________________________________________________
+GIT Reset  :-
+Soft Reset :-  delete all commit id without change data in file
+ Example :-     
+echo "v1" >> v1
+git add .
+git commit -m  "1"
+echo "v1 second " >> v1
+git add .
+git commit -m "2"
+git log v1
+echo "v1 thired" >> v1
+git add .
+git commit -m "3"
+echo "v1 foure" >> v1
+git add .
+git commit -m "4"
+clear
+git log v1
+cat v1
+git reset --soft e9b7e98ded63
+cat v1
+ git log v1
+----- Hard reset--
+Commit id and data all will be deleted
+$ git reset --hard e9b7e98de
+------mixted reset----
+]$ git reset --mixed e9b7e98de
+--------------------------------------------------------------------------
+Recover file in GIT
+ ls
+ rm -rf test2
+ ls
+ git checkout test2
+ ls
+------------GIT Hooks-----------------------------------------------
+it is like cronttab i linux we sedule what ever we want perform befour or aftter any action in GIT
+systemctl is-active postfix
+cd .git/hooks/
+vi post-commit
+
+#!/bin/bash
+mail -s "new commit recived" root@localhost
+
+:wq!
+chmod 755
+-------GIT setup on local system -----------
+create repo on root 
+# mkdir master_repo
+# cd master_repo
+# git init --bare (( --bare is use for distrubet repo nobody can work on this only code pull and push in it))
+clone it on two different user
+git clone root@127.0.0.1:/root/master_repo
+add remote 
+git remote add origin root@127.0.0.1:/root/master_repo gatting conflict errar .
+
