@@ -1034,6 +1034,20 @@ function w3_getStyleValue(elmnt,style) {
 
 
 <div>
+<pre>********** 
+ADD Volume (EBS)
+first check instance abailabilty zone
+ELASTIC BLOCK STORE/volue/create volume/size[select]/select abailabillty zone/ADD TAG/
+select your volume/action/attach volume/select instance/attach
+go EC2
+# lsblk
+cd /
+mkdir storage
+df
+df -h
+mkfs.xfs /dev/xvdf
+mount /dev/xvdf /storage
+ df -h /storage/</pre>
 <h2><a name= "question1"></a>VPC</h2>
 <pre>*****************************************************************************************
   Reson
