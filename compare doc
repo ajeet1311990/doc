@@ -66,7 +66,7 @@ svn co svn://172.16.7.112/Repos/mmmerica/    Desktop/mow/
 svn checkout
 svn checdkout svn://103.251.61.84/Repos/cinfo/ .
 ---------------------------------------------------------------------
-################ Create SVn space on moi ###############################
+################ Create SVN space on moi ###############################
 cd /compare_infobase/logs/dom_logs/mapsofindia.com/
      Delete old date file  (rm -rf )
 *****************SVN 12 & 14 & 16  backup file check ****************************
@@ -471,4 +471,22 @@ copy & past
 KripaSingh1989
 mysql -u mapsofworld -h mapsofworlddb.cpidjkfrcsq7.us-west-1.rds.amazonaws.com -p
 deepak66gupta
+#############zimbra ##############################################
 
+zimbraAdmin :- 7071 
+
+ bash -x /usr/local/scripts/backup_allaccounts.sh &
+ 
+
+zmcontrol stop
+zmcontrol start
+zmcontrol satus
+
+mv /opt/zimbra/log/zmmailboxd.pid /tmp/
+
+/opt/zimbra/postfix/sbin/postqueue -p
+
+/opt/zimbra/postfix/sbin/postsuper -d ALL deferred
+
+cat /var/log/exim_mainlog |grep "vidisha@comparemails.com"
+****************************************************************************
