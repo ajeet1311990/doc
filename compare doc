@@ -177,6 +177,9 @@ iptables-restore < newrule.txt              ( we have not required iptables in A
  for IP Drop
 netstat -anp | grep 80 | awk '{print $5}' | cut -f1 -d: | sort | uniq -c | sort -n
 /sbin/iptables -I INPUT -s 46.161.9.56  -j DROP
+
+iptables -A INPUT -m iprange --src-range -101.1.1.1-101.240.240.240 -j DROP
+
 ####################################################
 Log
 Mail log
