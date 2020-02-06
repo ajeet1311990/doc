@@ -1,3 +1,16 @@
+Jenkins :_
+ 1) code compile  ---->   maven/ant/gradel (is built management tool)
+ 2) code review   ---->  sonar quib / PMD
+ 3) Test case
+ 4) coverage     
+ 5) Packging
+ 6) Deployment
+ We can work with jenkins two type
+ 1) graphical
+ 2) jenking File
+ when ever we create new project in jenkins it automaticaly create new folde in backend
+ /var/lib/jenkins/work space/project_name
+ -------------------------------------------------------
 https://pkg.jenkins.io/redhat-stable/
 yum update
 yum install java* -y
@@ -48,6 +61,6 @@ User/group to add [ user2 ] empoly
 
 Prject roles -> User/group to add -> user1 & user2 -> Develeper ( user1 ) & Tester (user2)
 New Item add dev1 project , test1 project save 
-
+--------------
 -- 
  
