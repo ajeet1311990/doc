@@ -25,5 +25,10 @@ You can explicitly choose the filesystem type using the --fs-type argument, whic
 svn -up
 svn info
 svn up  -r revision.No     [ For SVN Reverd file ]
+svn relocate svn://103.251.61.85/home/Repos/turbantree
+svn --force delete config
+svn commit -m ""
+svn resolved upload
+svn statu
 .
 .
