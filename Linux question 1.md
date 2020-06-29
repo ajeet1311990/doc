@@ -1,4 +1,5 @@
 ### 1. what is DNS ? How it related with subnet mask?
+A DNS Server converts the IP addresses in to domain names. A subnet mask is a number that defines a range of IP addresses available within a network.
 ### 2. what is the reletion bitween IP address and subnet mask ?
 Ans :  A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network.
 ### 3. How to see CPU usage ? what are the different parameters of that command?
