@@ -29,6 +29,7 @@ Ans :  A subnet mask is used to divide an IP address into two parts. One part id
 ### 27. how to check http version ?
 ### 28. how to stop firewall service ?
 ### 29. what is  .bashrc and .bash_profile ?
+Ans :  ~/.bash_profile is shell scripts that contain shell commands.  This means that when a user logs in (via username and password) to the console (either locally or remotely via something like SSH), the ~/.bash_profile script is executed before the initial command prompt is returned to the user. After that, every time a new shell is opened, the ~/.bashrc script is executed. 
 ### 30. what is different bitween application server and webserver ?
 ### 31. how to increase heap memory size ? what is the exact parameter name to do this and where to change ?
 ### 32. what is load blancer ? how to configure it ? how to works ?
