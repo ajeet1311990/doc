@@ -1,5 +1,6 @@
 ### 1. what is DNS ? How it related with subnet mask?
 ### 2. what is the reletion bitween IP address and subnet mask ?
+Ans :  A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network.
 ### 3. How to see CPU usage ? what are the different parameters of that command?
 ### 4. how to transefer securely file over network ?
 ### 5. what is subnet mask ?
